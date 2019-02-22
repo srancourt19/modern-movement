@@ -9,12 +9,13 @@ body {
   width: 100vw;
   overflow-x: hidden;
   color: black;
-  background-color: yellow;
+  background-color: black;
 }
 img, video {
   max-width: 100%;
   height: auto;
-  width: 40em;
+  width: 120em;
+
 }
 
 .center {
@@ -23,3 +24,12 @@ img, video {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.play {
+  color: white;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  cursor: pointer;
+}
+
